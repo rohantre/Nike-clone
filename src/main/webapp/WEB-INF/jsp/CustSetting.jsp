@@ -359,7 +359,7 @@ button {
         
             <div class="form-group">
                 <label for="phone">Change Phone Number:</label>
-                <input type="tel" id="phone" name="ph_no" placeholder="New Phone Number" value="${user.ph_no }">
+                <input type="tel" id="phone" name="ph_no" placeholder="New Phone Number" value="0${user.ph_no }">
             </div>
             <button type="submit" >Save Changes</button>
         </form>
