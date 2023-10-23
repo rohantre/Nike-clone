@@ -54,7 +54,11 @@
     text-decoration: none;
     color: gray;
     }
-    
+   
+.d-lg-block {
+    display: flex !important;
+    justify-content: center;
+}
       
       #top2
 {
@@ -175,10 +179,7 @@
             border-radius: 5px;
        
             width: 290px;
-
-            position: absolute;
-    left: 41%;
-    top: 37%;
+	margin: auto;
 
         }
         body
@@ -254,8 +255,7 @@
     <div class="text-center justify-content-center"> <!-- Center content using text-center class -->
         <img src="../../static/images/pngwing.com.png" alt="" style="max-width: 100%; width: 80px;">
         <div class="d-none d-lg-block " >
-        <div style="width: 293px; position: relative;
-    left: 400px;" > <h3 style="font-weight: bold;">YOUR ACCOUNT FOR EVERYTHING NIKE</h3></div></div>
+        <div style="width: 293px;" > <h3 style="font-weight: bold;">YOUR ACCOUNT FOR EVERYTHING NIKE</h3></div></div>
     </div>
 </div>
         <div class="login-container">

@@ -25,13 +25,13 @@
         text-decoration: underline;}
 
     .dropdown-menu {
-        padding: 30px; /* Adjust the values as needed */
+        /* Adjust the values as needed */
        border: none;
          --bs-dropdown-link-active-bg: #F5F5F5;
     }
 
     .dropdown-menu .dropdown-item {
-        padding: 30px 20px; /* Adjust the values as needed */
+       /* Adjust the values as needed */
         transition: background-color 0.3s;
     }
 
@@ -42,16 +42,11 @@
     .nav-item {
         margin-right: 50px; /* Adjust the value as needed */
     }
-    .navbar-toggler
-    {
-        position: absolute;
-    right: -178px;
-    top: 77px;
-    }
+   
       #top2
 {
     background: #fff;
-    position: relative;
+ 
     height: 60px;
     width: 100%;
     transition: transform .15s ease;

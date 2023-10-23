@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 <script>
-<script>
+
 function searchProducts() {
     const searchInput = document.getElementById("searchInput").value.toLowerCase();
     const productCards = document.querySelectorAll(".image-card");
@@ -54,13 +54,13 @@ function searchProducts() {
         text-decoration: underline;}
 
     .dropdown-menu {
-        padding: 30px; /* Adjust the values as needed */
+        /* Adjust the values as needed */
        border: none;
          --bs-dropdown-link-active-bg: #F5F5F5;
     }
 
     .dropdown-menu .dropdown-item {
-        padding: 30px 20px; /* Adjust the values as needed */
+       /* Adjust the values as needed */
         transition: background-color 0.3s;
     }
 
@@ -71,12 +71,7 @@ function searchProducts() {
     .nav-item {
         margin-right: 50px; /* Adjust the value as needed */
     }
-    .navbar-toggler
-    {
-        position: absolute;
-    right: -178px;
-    top: 77px;
-    }   a
+     a
     {
     text-decoration: none;
     color: gray;
@@ -465,7 +460,7 @@ function searchProducts() {
             </nav>
         </div>
 
-        <div class="search-bar">
+     <%--  <div class="search-bar">
             <div class="search-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
                 <circle cx="11" cy="11" r="8"></circle>
@@ -473,7 +468,7 @@ function searchProducts() {
               </svg>
             </div>
             <button  style="border: none; border-radius: 25px; background-color: #f5f5f5; "> <input type="text" id="searchInput" class="search-input" placeholder="Search..." onchange="searchProducts()"></button>
-          </div>
+          </div> --%> 
 
           <div class="button-container">
          <a href="../wishlist">  <button class="favorite-button">

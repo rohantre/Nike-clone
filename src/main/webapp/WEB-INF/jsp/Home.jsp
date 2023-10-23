@@ -26,21 +26,25 @@
 <body>
 <div class="container-fluid">
     <div id="top" class="d-lg-block">
-            <div id="jordan">
-                    <div class="d-none d-lg-block" ><img src="../../static/images/air-jordan-logo.png" alt=""  id="img1" > </div>
+        
+              
+
              <c:choose>
              <c:when test="${person.id!=null }">
-              <div class="flex-container">
-                       
-                       <span id="findstore"> <a href="" id="a1" >Find a store</a></span>
-                       <span style="position: relative; left: -19px;">|</span>
-                       <span id="help"> <a href="" id="a1" >Help</a></span>
-                       <span style="position: relative; left: -4px;">|</span>
-                       <span id="join"> <a href="" id="a1" >Hii,${person.fname }</a></span>
+                <div class="container-fluid">
+                 
+    <div class="flex-container d-flex align-items-center justify-content-center">
+        <span id=""><a href="" class="">Find a store &nbsp</a></span>
+        <span>|</span>
+        <span id=""><a href="" class=""> &nbsp Help &nbsp </a></span>
+        <span>|&nbsp</span>
+        <span id=""><a href="signup" class="">Hi,${person.fname }</a></span>
+      
+    
                        <ul class="navba-nav" style="list-style: none;">
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuMen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <span id="sign" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 24px">
+                                            <span id="" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 24px">
   <!-- Head -->
   <circle cx="12" cy="8" r="6" />
   <!-- Chest -->
@@ -59,24 +63,25 @@
                                     </li>
    
                        </ul>
-                      
-                       </div>
+                      </div>
+                     
+</div>
              </c:when>
              
           <c:otherwise>
-                    <div class="flex-container">
-                       
-                       <span id="findstore"> <a href="" id="a1" >Find a store</a></span>
-                       <span style="position: relative; left: -19px;">|</span>
-                       <span id="help"> <a href="" id="a1" >Help</a></span>
-                       <span style="position: relative; left: -4px;">|</span>
-                       <span id="join"> <a href="signup" id="a1" >Join Us</a></span>
-                       <span >|</span>
-                       <span id="sign" style="position: relative;
-    left: 4px;
-  
-"> <a href="login" id="a1" >Sign in</a></span>
-                    </div>
+                   <div class="container-fluid">
+                      
+    <div class="flex-container d-flex align-items-center justify-content-center">
+        <span id=""><a href="" class="">Find a store &nbsp</a></span>
+        <span>|</span>
+        <span id=""><a href="" class=""> &nbsp Help &nbsp </a></span>
+        <span>|</span>
+        <span id=""><a href="signup" class=""> &nbsp Join Us  &nbsp</a></span>
+        <span>|</span>
+        <span id="" style="position: relative; left: 4px;"><a href="login" class=""> &nbsp Sign in </a></span>
+        </div>
+    
+</div>
                </c:otherwise>
                </c:choose>
             </div>
@@ -124,26 +129,14 @@
                                             <li><a class="dropdown-item" href="kids/cloth">Clothing</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuKids" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                             <a href="men/allmen">Sale</a> 
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuKids">
-                                            <li><a class="dropdown-item" href="#">Men's Sale</a></li>
-                                            <li><a class="dropdown-item" href="#">Women's Sale</a></li>
-                                            <li><a class="dropdown-item" href="#">Kids's Sale</a></li>
-                                            
-                
-                                        </ul>
-                                        
-                                    </li>
+                                    
                                   
                             </div>
                         </div>
                     </nav>
                 </div>
 
-              
+               
 
                   <div class="button-container">
                    <a href="wishlist">  <button class="favorite-button">
@@ -162,9 +155,7 @@
 
     </div>
 
-        <div id="custom">
-
-        </div>
+        
     <div id="img2">
         <img src="../../static/home/${img1.image }" class="img-fluid" alt="Responsive image">
         

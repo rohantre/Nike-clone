@@ -152,67 +152,7 @@
 
            <a href="../nike/in"> <img src="../../static/images/pngwing.com.png" alt="" width="100%" height="100%"></a>
         </div>
-        <div id="option">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-                <div class="container" style="max-inline-size: min-content; ">
-                    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="position: relative;
-    left: 65px;
-    top: 1px;">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuMen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <a href="men/allmen">Men</a> 
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuMen">
-                                    <li><a class="dropdown-item" href="men/shoe">Shoes</a></li>
-                                    <li><a class="dropdown-item" href="men/cloth">Clothing</a></li>
-                                  
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuWomen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <a href="women/allwomen">Women</a> 
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuWomen">
-                                    <li><a class="dropdown-item" href="women/shoe">Shoes</a></li>
-                                    <li><a class="dropdown-item" href="women/cloth">Clothing</a></li>
-                               
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuKids" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <a href="kids/allkids">Kids</a> 
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuKids">
-                                    <li><a class="dropdown-item" href="kids/shoe">Shoes</a></li>
-                                    <li><a class="dropdown-item" href="kids/cloth">Clothing</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuKids" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                   <a href="men/allmen">Sale</a> 
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuKids">
-                                    <li><a class="dropdown-item" href="#">Men's Sale</a></li>
-                                    <li><a class="dropdown-item" href="#">Women's Sale</a></li>
-                                    <li><a class="dropdown-item" href="#">Kids's Sale</a></li>
-                                    
-        
-                                </ul>
-                                
-                            </li>
-                          
-                    </div>
-                </div>
-            </nav>
-        </div>
-
- </div>       
+       
 
 </div>
 
