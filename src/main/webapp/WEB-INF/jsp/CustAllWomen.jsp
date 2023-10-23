@@ -483,7 +483,7 @@ function searchProducts() {
     <br>
 
      <div id="view-products" class="section">
-       <div class="image-list">
+       <div class="col-md-3 m-3">
          <c:forEach items="${women}" var="Product">
              <div class="image-card">
              <a href="../view/${Product.id}" id="a1">

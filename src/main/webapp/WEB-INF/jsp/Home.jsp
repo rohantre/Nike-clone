@@ -25,9 +25,9 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div id="top" class="d-none d-lg-block">
+    <div id="top" class="d-lg-block">
             <div id="jordan">
-                    <img src="../../static/images/air-jordan-logo.png" alt=""  id="img1" >
+                    <div class="d-none d-lg-block" ><img src="../../static/images/air-jordan-logo.png" alt=""  id="img1" > </div>
              <c:choose>
              <c:when test="${person.id!=null }">
               <div class="flex-container">
@@ -143,15 +143,7 @@
                     </nav>
                 </div>
 
-                <div class="search-bar">
-                    <div class="search-icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                      </svg>
-                    </div>
-                    <input type="text" class="search-input" placeholder="Search">
-                  </div>
+              
 
                   <div class="button-container">
                    <a href="wishlist">  <button class="favorite-button">

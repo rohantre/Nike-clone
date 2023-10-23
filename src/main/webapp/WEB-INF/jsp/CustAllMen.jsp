@@ -501,7 +501,7 @@ function searchProducts() {
        <div class="image-list">
          <c:forEach items="${men}" var="Product">
        
-             <div class="image-card">
+             <div class="col-md-3 m-3">
              <a href="../view/${Product.id}" id="a1">
                  <img src="../../static/men/${Product.image}" alt="Image" width="352px" height="374.4px" />
                  <div class="image-card-content">

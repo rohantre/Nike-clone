@@ -493,7 +493,7 @@ function searchProducts() {
        <div class="image-list">
          <c:forEach items="${kids}" var="Product">
          <a href="../view/${Product.id}" id="a1">
-             <div class="image-card">
+             <div class="col-md-3 m-3">
                  <img src="../../static/kids/${Product.image}" alt="Image" width="352px" height="374.4px" />
                  <div class="image-card-content">
                      <p class="image-card-description" style="font-weight: bold; font-size: large; ">${Product.name}</p>

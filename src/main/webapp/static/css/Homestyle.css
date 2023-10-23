@@ -33,9 +33,10 @@ body{
     }
     .navbar-toggler
     {
-        position: absolute;
-    right: -178px;
+       position: absolute;
+    right: -125px;
     top: 77px;
+
     }
 
     
@@ -103,7 +104,7 @@ body{
 .flex-container {
     display: flex;
     position: absolute;
-    left: 2030%;
+    left: 1537%;
     padding-top: 7px;
 }
 

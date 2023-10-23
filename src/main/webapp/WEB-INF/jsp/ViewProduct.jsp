@@ -104,7 +104,7 @@
         <div id="view-products" class="section">
           <div class="image-list">
             <c:forEach items="${product}" var="Product">
-                <div class="image-card">
+                <div class="col-md-3 m-3">
                     <img src="../../static/allimage/${Product.image }" alt="Image" width="352px" height="374.4px" />
                     <div class="image-card-content">
                         <p class="image-card-description" style="font-weight: bold; font-size: large; ">${Product.name}</p>
